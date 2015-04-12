@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><Response><Say>H-hello? AAAAAA? It's a disaster! Uh, um, it's just terrible! What should I do? It... Oh, no... Please get back here now.</Say></Response>
