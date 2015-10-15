@@ -10,7 +10,7 @@ router.get('/', function(req, res) {
     // from the /outbound route
 
     twilioClient.makeCall({
-        to: "+1" + 6107616189,
+        to: "+15555555555",  // Enter real number
         from: config.twilioNumber,
         applicationSid: config.applicationSid
     }, function(err, message) {
@@ -19,7 +19,7 @@ router.get('/', function(req, res) {
             res.status(500).send(err);
         } else {
             res.send({
-                message: 'DICKS'
+                message: 'Success.'
             });
         }
     });

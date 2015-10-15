@@ -22,5 +22,5 @@ while i < 0xFFFF - 2 do
 end
 
 if not found then
-  emu.message('FUCK')
+  emu.message('Not Found')
 end

@@ -1,1 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><Response><Say>H-hello? AAAAAA? It's a disaster! Uh, um, it's just terrible! What should I do? It... Oh, no... Please get back here now.</Say></Response>
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+	<Say>Hi, Brodan! How are you? I found a useful item shopping, 
+		so I bought it with your money. Sorry! It's in your PC. You'll like it!</Say>
+</Response>

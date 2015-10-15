@@ -28,7 +28,11 @@ end
 
 --currently working
 function check_phone()
-  local say_text = 'H-hello? AAAAAA? It\'s a disaster! Uh, um, it\'s just terrible! What should I do? It... Oh, no... Please get back here now.'
+  if(memory.readbyte(0x0D575)) == 255 then
+    say_text = 'Hi, Brodan! How are you? I found a useful item shopping, so I bought it with your money. Sorry! It\'s in your PC. You\'ll like it!'
+  else
+    say_text = 'H-hello? Brodan? It\'s a disaster! Uh, um, it\'s just terrible! What should I do? It... Oh, no... Please get back here now.'
+  end
   --check for 98 because 0x62=98
   if(memory.readbyte(0xC3B5) == 98) then
     if makeCall then
